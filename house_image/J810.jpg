@@ -1,0 +1,115 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>The Hong Kong Jockey Club</title>
+<link href="//common.hkjc.com/maint/css/master.css" rel="stylesheet" type="text/css" />
+<link href="//common.hkjc.com/maint/css/style.css" rel="stylesheet" type="text/css" />
+<link href="//common.hkjc.com/maint/css/footer_header.css" rel="stylesheet" type="text/css">
+<link href="//common.hkjc.com/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	body{
+		font-family: "微軟正黑體", arial;
+	}
+</style>
+<script type="text/javascript" src="//common.hkjc.com/wa/VisitorAPI.js"></script>
+
+<script type="text/javascript" src="//common.hkjc.com/maint/js/redirect-mapping.js"></script>
+<script type="text/javascript" src="//common.hkjc.com/maint/js/redirect.min.js"></script>
+</head>
+ 
+<body BGCOLOR=#FFFFFF LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 style="width: 100%">
+	<div class="container" style="max-width: 1170px; min-width: 320px; width: 100%;">
+		<script type="text/JavaScript">
+		function MM_openBrWindow(theURL,winName,features) { //v2.0
+		  window.open(theURL,winName,features);
+		}
+		</script>
+		<div class="row">
+			<div class="col-md-4">
+				<a href="//www.hkjc.com/home/chinese/index.aspx"><img src="//common.hkjc.com/maint/images/logo_hkjc_bilingual.png" vspace="10" hspace="10" border="0" /></a>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="col-md-12"><p>&nbsp;<p></div>
+		</div>
+		<div class="row" id="main-content" style="visibility: hidden;">
+			<div class="col-md-12" id="default-page">
+				<p class="header"><b>HTTP 404 - 很抱歉，您查詢的網頁並不存在</b></p>
+		
+				此網頁暫時無法使用或已經過期並移除，您可以使用下列方法來繼續查詢：
+				 
+				<ul style="list-style-type: none">
+					<li>- 再次檢視輸入的網址是否正確。 </li>
+					<li>- 按<a href="javascript:history.back(1)">上一頁</a>嘗試其他連結。</li>
+					<li>- 或前往<a href="//www.hkjc.com/home/chinese/index.asp">www.hkjc.com</a>，並於頁面找尋所需資訊。</li>
+				</ul>
+				 
+				&nbsp;<p class="header"><b>HTTP 404 - We're sorry, the page cannot be found</b></p>
+					The page you are looking for might be outdated and removed, or is temporarily unavailable. Please try the following:
+				<ul style="list-style-type: none">
+					<li>- If you typed the page address in the Address bar, make sure that it is spelled correctly.
+					<li>- Click the <a href="javascript:history.back(1)">Back</a> button to try another link.
+					<li>- Go to <a href="//www.hkjc.com/home/english/index.asp">www.hkjc.com</a> , and then look for links to the information you want.
+				</ul>
+					
+				&nbsp;<p>&nbsp;<p>
+			
+			</div>
+			<div class="col-md-12" id="redirect-page" style="display:none">
+				<p class="header"><b>網址變更</b></p>
+				<ul style="list-style-type: none">
+					<li>此頁面的新網址是
+						<a class="jumpUrlStyle redirect-links" href=""></a>
+					</li>
+					<li>
+						請更新你「書籤」內的網站地址。
+					</li>
+				</ul>
+				<br>
+				<p class="header"><b>URL changed</b></p>
+				<ul style="list-style-type: none">
+					<li>The new URL for this page is
+						<a class="jumpUrlStyle redirect-links" href=""></a>
+					</li>
+					<li>
+						Please update the URL in your "Bookmarks".
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	 
+	<!-- START WA Tagging -->
+	<script src="//common.hkjc.com/wa/wa_tracker.js" type="text/javascript"></script>
+	<script src="//common.hkjc.com/wa/wa_tracker_config.js" type="text/javascript"></script>
+	<script src="//common.hkjc.com/wa/glassbox.js" type="text/javascript"></script>
+
+	<script type="text/javascript"> 
+		try {
+			WATracker.trackPageView('http-404');
+		} catch (e) {}
+	</script>
+	<!-- END WA Tagging -->
+
+	<script>
+		var mainContent = document.getElementById('main-content');
+		setTimeout(function () {
+			mainContent.style.visibility = 'visible';
+		}, 5000);
+
+		try {
+			redirectCheck();
+		} catch (err) {
+			console.log(err);
+		} finally {
+			mainContent.style.visibility = 'visible';
+		}
+	</script>
+</body>
+</html>
