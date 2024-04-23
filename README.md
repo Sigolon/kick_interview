@@ -20,22 +20,22 @@ crawl data from this url:  https://racing.hkjc.com/racing/information/Chinese/ra
 ![未命名簡報](https://hackmd.io/_uploads/B16YhXBWR.jpg)
 
 # Directory structure
-project_folder
-├── **db_table_csv**
-│   └── player_info.csv
-├── **horse_pdf**
-│   └── G415.pdf
-├── **house_image**
-│   ├── A005.jpg
-│   ├── A050.jpg
-├─── crawler.py
-├─── crawler_function.py
-├─── etl_function.py
-├─── fast_api.py
-├─── data_base.json
-├─── date_check.json
-├─── data_base.bd
-├─── Dockerfile
+project_folder \
+├── **db_table_csv** \
+│   └── player_info.csv \
+├── **horse_pdf** \
+│   └── G415.pdf \
+├── **house_image** \
+│   ├── A005.jpg \
+│   ├── A050.jpg \
+├─── crawler.py \
+├─── crawler_function.py \
+├─── etl_function.py \
+├─── fast_api.py \
+├─── data_base.json \
+├─── date_check.json \
+├─── data_base.bd \
+├─── Dockerfile \
 └─── requirements.txt
 
 ## P.S
